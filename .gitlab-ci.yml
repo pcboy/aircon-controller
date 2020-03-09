@@ -1,0 +1,12 @@
+image: node
+pages:
+  before_script:
+    - apt-get update -y
+    - apt-get install -y libsodium23
+    - gem install ncypher
+    - make secrets
+  script:
+    - make webui
+  artifacts:
+    paths:
+      - public
