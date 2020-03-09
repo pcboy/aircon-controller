@@ -5,7 +5,7 @@ Working for the Daikin Risora models (https://www.daikinaircon.com/risora/roomai
 
 Daikin is advertising IoT features on this model but are basically lying to your face.  
 You only get IoT support if you buy another board separetely (great user experience Daikin!), and the board costs around 100 USD.  
-For something with a terrible UI and quite possibly security issues. Better to build one your self for a few bucks like I did.
+For something with a terrible UI and quite possibly security issues. Better to build one yourself for a few bucks like I did.
 
 
 The Esp32 connects to a remote MQTT server (pubnub in my case) and listen to events.  
